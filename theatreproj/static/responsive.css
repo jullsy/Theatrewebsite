@@ -1,0 +1,257 @@
+@import "styles.css";
+
+@media screen and (max-width: 977px) {
+
+  /* _________SELECT TICKETS________*/
+  .mainTickets {
+    justify-content: center;
+  }
+
+  .tickets-header {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .tickets-info {
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  .tickets-steps {
+    order: -1;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  }
+
+  .progress-text::before {
+    top: calc(50% - 2rem);
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  /* _________CONTACTS_______ */
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-left {
+    align-self: center;
+  }
+
+  .contact-right {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .contact-left iframe {
+    width: 400px;
+    height: 270px;
+    margin: 50px 0 50px;
+  }
+
+  /* _____INDEX_______ */
+  .index-row1 img {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  /* ____________SELECT TICKETS_______ */
+
+  .tickets-title {
+    width: 230px;
+  }
+
+  .tickets-seats {
+    margin: 0;
+  }
+
+  .timeline-items::before {
+    left: 11px;
+  }
+
+  .timeline-items:nth-child(odd) {
+    padding-right: 0;
+    text-align: left;
+  }
+
+  .timeline-items:nth-child(odd),
+  .timeline-items:nth-child(even) {
+    padding-left: 40px;
+  }
+
+  .timeline-dot {
+    left: 0;
+  }
+
+  .timeline-date {
+    font-size: 2rem;
+  }
+
+  .seat {
+    width: 12px;
+    height: 12px;
+  }
+
+  .group-cost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* _____INFOSHOW____ */
+
+  .infoshow-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  /* ____HEADER___ */
+  .title-nav-row2 {
+    display: none !important;
+  }
+
+  .nav .nav-links a {
+    font-size: 1.3em;
+  }
+
+  /* ____AFISHA____ */
+  .row1-afisha {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #filter-form {
+    flex-direction: column;
+  }
+
+  .row-afisha {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-afisha {
+    margin: 0;
+  }
+
+  /* ______SELECT TICKETS ______ */
+
+  .cinema-row .seat {
+    margin: 1px;
+  }
+
+  .mainTickets {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .tickets-header {
+    margin-left: 10px;
+  }
+
+  .tickets-steps {
+    width: 100%;
+  }
+
+  .cost1,
+  .cost2,
+  .cost3,
+  .cost4,
+  .cost5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ______PLACING ORDER_____ */
+  .order-form {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .order-form .text {
+    text-align: center;
+  }
+
+  /* _____INDEX____ */
+
+  .contentScreen p {
+    font-size: 1rem;
+    bottom: calc(40%);
+  }
+
+  .index-row1 p {
+    margin-top: 20px;
+  }
+
+  #index-theatre-caps {
+    font-size: 2rem;
+  }
+
+  .index-row2 {
+    flex-wrap: wrap;
+  }
+
+  .index-row2 p {
+    margin: 15px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contact-left iframe {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 4/3;
+  }
+
+  .infoshow-container .info-img img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  /* ____HEADER__ */
+  .title-nav {
+    font-size: 0.9em;
+  }
+
+  .nav .nav-links a {
+    font-size: 1.3em;
+  }
+
+  .nav .search-box input {
+    font-size: 1rem;
+  }
+
+  /* _____FOOTER____ */
+  .footer-prescriptions {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-center {
+    display: none;
+  }
+
+  .hidden-footer-center {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .footer-left,
+  .footer-right {
+    justify-content: center;
+  }
+}
